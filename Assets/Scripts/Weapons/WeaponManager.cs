@@ -2,8 +2,8 @@
 
 public class WeaponManager : MonoBehaviour {
     // weapon selected
-    [SerializeField] private Weapon[] weapons = new Weapon[3];
-    [SerializeField] private WeaponSlot[] weaponSlots = new WeaponSlot[3];
+    [SerializeField] private Weapon[] weapons = new Weapon[2];
+    [SerializeField] private WeaponSlot[] weaponSlots = new WeaponSlot[2];
 
     [SerializeField] private int weaponSelectedIndex = 0;
 

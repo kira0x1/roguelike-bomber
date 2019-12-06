@@ -17,8 +17,10 @@ MonoBehaviour:
   yOffset: 0.125
   clampSpawn: 1
   maxSpawn: 4
-  spawnedCount: 4
+  spawnedCount: 0
   coolDownAfterCount: 1
-  cdClampTimer: -0.002584857
+  clampTimer: -0.016184408
+  ammo: 0
+  maxAmmo: 500
   icon: {fileID: 21300000, guid: caa7e8692ce5e1d4c8788d7f07bd4ce2, type: 3}
-  cdTimer: -0.020477587
+  cdTimer: -0.0054152943

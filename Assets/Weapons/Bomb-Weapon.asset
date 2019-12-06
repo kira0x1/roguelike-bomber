@@ -19,6 +19,8 @@ MonoBehaviour:
   maxSpawn: 4
   spawnedCount: 0
   coolDownAfterCount: 2
-  cdClampTimer: 1.1059234
+  clampTimer: 0
+  ammo: 0
+  maxAmmo: 500
   icon: {fileID: 21300000, guid: 80cadb05495cdee4ea0628f53169250e, type: 3}
-  cdTimer: -0.0017369017
+  cdTimer: -0.0014881017

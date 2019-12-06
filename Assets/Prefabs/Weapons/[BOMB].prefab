@@ -58,6 +58,7 @@ MonoBehaviour:
   bombModel: {fileID: 790856308}
   gizmoColor: {r: 0.7490196, g: 0, b: 0, a: 0.73333335}
   weapon: {fileID: 11400000, guid: e08bf8eb99ee9ae4e83fa5a0aa73e014, type: 2}
+  isSticky: 0
 --- !u!1 &4861761126522161606
 GameObject:
   m_ObjectHideFlags: 0
@@ -175,6 +176,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1150267824446731904}
     m_Modifications:
+    - target: {fileID: 8546530664776535344, guid: a249d84b3c049a9469066f1fb491efd0,
+        type: 3}
+      propertyPath: m_RenderAlignment
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8546530664776535345, guid: a249d84b3c049a9469066f1fb491efd0,
         type: 3}
       propertyPath: stopAction
@@ -254,11 +260,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8546530664776535344, guid: a249d84b3c049a9469066f1fb491efd0,
-        type: 3}
-      propertyPath: m_RenderAlignment
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a249d84b3c049a9469066f1fb491efd0, type: 3}

@@ -1461,6 +1461,7 @@ MonoBehaviour:
   rayLayer:
     serializedVersion: 2
     m_Bits: 1536
+  blockSpawnLayer: 3
 --- !u!1001 &1402074207
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1859,7 +1860,7 @@ Light:
     m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
-    m_Strength: 0.94
+    m_Strength: 1
     m_Bias: 0.136
     m_NormalBias: 0.081
     m_NearPlane: 0.26

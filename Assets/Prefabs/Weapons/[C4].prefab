@@ -58,6 +58,7 @@ MonoBehaviour:
   bombModel: {fileID: 7532738816641297710}
   gizmoColor: {r: 1, g: 0.47538534, b: 0, a: 187}
   weapon: {fileID: 11400000, guid: 02ba304e95aee634e9b48e6db4cf2a58, type: 2}
+  isSticky: 0
   triggerKey: 32
 --- !u!1 &7532738816641297699
 GameObject:
@@ -176,6 +177,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1813061716644389823}
     m_Modifications:
+    - target: {fileID: 8546530664776535344, guid: a249d84b3c049a9469066f1fb491efd0,
+        type: 3}
+      propertyPath: m_RenderAlignment
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8546530664776535345, guid: a249d84b3c049a9469066f1fb491efd0,
         type: 3}
       propertyPath: playOnAwake
@@ -245,11 +251,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: '[EXPLOSION]'
-      objectReference: {fileID: 0}
-    - target: {fileID: 8546530664776535344, guid: a249d84b3c049a9469066f1fb491efd0,
-        type: 3}
-      propertyPath: m_RenderAlignment
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a249d84b3c049a9469066f1fb491efd0, type: 3}

@@ -1,0 +1,35 @@
+Buy weapons before level starts ? 
+Set Timer for bombs
+
+Add cursors
+
+Select mode -> Cursor change to pointer
+
+------ UNITS---------
+Defense vs Offense
+
+Assault troops that charge in solider, robot, etc
+Defense units like c4, bomb, turret
+
+Units cost money
+Limited amount of money each round
+
+Unit Data
+Speed
+Target Priority table
+Rigidbody?
+Navmesh?
+Gun
+
+-------MOVEMENT--------
+RTS Like
+
+
+
+--- Explosioves ---
+Toxic Bomb
+Slow movement grenade
+Slow Time bomb
+
+-------Traps-------
+Explosisve trap ( when stepped on by enemy or friendly? )

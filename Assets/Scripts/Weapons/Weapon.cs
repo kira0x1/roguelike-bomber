@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 [CreateAssetMenu (fileName = "Weapon", menuName = "Weapons/New Weapon", order = 0)]
 public class Weapon : ScriptableObject {
@@ -10,15 +11,32 @@ public class Weapon : ScriptableObject {
     [SerializeField] protected int maxSpawn = 4;
     [SerializeField] protected int spawnedCount;
     [SerializeField] protected float coolDownAfterCount = 2f;
-    [SerializeField] protected float cdClampTimer;
+
+    [HideInInspector]
+    public float clampTimer;
+
+    [SerializeField] protected int ammo = 10;
+    [SerializeField] protected int maxAmmo = 10;
 
     [SerializeField] public Sprite icon;
 
     [HideInInspector]
     public float cdTimer;
+
     protected Camera cam;
 
+    public Action<float> OnCoolDownEvent;
+
+    public int GetAmmo () {
+        return ammo;
+    }
+
+    public int GetMaxAmmo () {
+        return maxAmmo;
+    }
+
     private void OnEnable () {
+        ammo = maxAmmo;
         spawnedCount = 0;
     }
 
@@ -31,19 +49,25 @@ public class Weapon : ScriptableObject {
             cdTimer -= tick;
         }
 
-        if (cdClampTimer > 0) {
-            cdClampTimer -= Time.deltaTime;
+        if (clampTimer > 0) {
+            clampTimer -= tick;
         }
     }
 
     public virtual void OnTrigger () {
         spawnedCount--;
-        cdClampTimer = coolDownAfterCount;
+        if (clampSpawn) {
+            clampTimer = coolDownAfterCount;
+            OnCoolDownEvent?.Invoke (coolDownAfterCount);
+        }
     }
 
     public virtual void SpawnWeapon (Vector3 spawn) {
+        if (ammo <= 0) return;
         if (cdTimer > 0) return;
-        if (clampSpawn && (spawnedCount >= maxSpawn || cdClampTimer > 0)) return;
+        if (clampSpawn && (clampTimer > 0 || spawnedCount >= maxSpawn)) return;
+
+        ammo--;
         spawnedCount++;
 
         spawn.y += yOffset;
@@ -53,6 +77,9 @@ public class Weapon : ScriptableObject {
 
         go.transform.position = spawn;
         go.SetActive (true);
+
         cdTimer = weaponCD;
+
+        // OnCoolDownEvent?.Invoke (weaponCD);
     }
 }
