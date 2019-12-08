@@ -14,7 +14,7 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 1
+  m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
   m_FogDensity: 0.015
@@ -1521,6 +1521,66 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4140660803388995879, guid: 708f3d610e24b9a4a8bd0b8cc1f0749d,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4140660803388995879, guid: 708f3d610e24b9a4a8bd0b8cc1f0749d,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4140660803388995879, guid: 708f3d610e24b9a4a8bd0b8cc1f0749d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4140660803388995879, guid: 708f3d610e24b9a4a8bd0b8cc1f0749d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4140660803388995879, guid: 708f3d610e24b9a4a8bd0b8cc1f0749d,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4140660803388995879, guid: 708f3d610e24b9a4a8bd0b8cc1f0749d,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572579433754177677, guid: 708f3d610e24b9a4a8bd0b8cc1f0749d,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572579433754177677, guid: 708f3d610e24b9a4a8bd0b8cc1f0749d,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572579433754177677, guid: 708f3d610e24b9a4a8bd0b8cc1f0749d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572579433754177677, guid: 708f3d610e24b9a4a8bd0b8cc1f0749d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572579433754177677, guid: 708f3d610e24b9a4a8bd0b8cc1f0749d,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572579433754177677, guid: 708f3d610e24b9a4a8bd0b8cc1f0749d,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4572579434669919655, guid: 708f3d610e24b9a4a8bd0b8cc1f0749d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1625,6 +1685,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4572579434669919674, guid: 708f3d610e24b9a4a8bd0b8cc1f0749d,
+        type: 3}
+      propertyPath: m_BlockingMask.m_Bits
+      value: 3895
       objectReference: {fileID: 0}
     - target: {fileID: 4572579434669919675, guid: 708f3d610e24b9a4a8bd0b8cc1f0749d,
         type: 3}

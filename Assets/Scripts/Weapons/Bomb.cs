@@ -58,13 +58,14 @@ public class Bomb : MonoBehaviour {
             timer = 0f;
             effectDone = true;
             gameObject.SetActive (false);
+            triggerEffect.gameObject.SetActive (false);
         } else {
             timer += Time.deltaTime;
         }
     }
 
     protected virtual void StartEffect () {
-        triggerEffect.Play ();
+        triggerEffect.gameObject.SetActive (true);
         bombModel.gameObject.SetActive (false);
     }
 

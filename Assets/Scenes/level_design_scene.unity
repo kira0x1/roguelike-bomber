@@ -14,10 +14,10 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 1
+  m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.015
+  m_FogDensity: 0.005
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
@@ -35,10 +35,10 @@ RenderSettings:
   m_DefaultReflectionMode: 0
   m_DefaultReflectionResolution: 128
   m_ReflectionBounces: 1
-  m_ReflectionIntensity: 0.316
+  m_ReflectionIntensity: 0.603
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 1526980366}
-  m_IndirectSpecularColor: {r: 0.090068504, g: 0.11736035, b: 0.15673931, a: 0.316}
+  m_IndirectSpecularColor: {r: 0.17187122, g: 0.22395028, b: 0.2990943, a: 0.603}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -64,14 +64,15 @@ LightmapSettings:
     m_CompAOExponentDirect: 0
     m_ExtractAmbientOcclusion: 0
     m_Padding: 2
-    m_LightmapParameters: {fileID: 0}
+    m_LightmapParameters: {fileID: 15204, guid: 0000000000000000f000000000000000,
+      type: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 0
     m_FinalGather: 0
     m_FinalGatherFiltering: 1
     m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
-    m_MixedBakeMode: 2
+    m_MixedBakeMode: 0
     m_BakeBackend: 1
     m_PVRSampling: 1
     m_PVRDirectSampleCount: 32
@@ -98,7 +99,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -223,11 +224,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
-        type: 3}
-      propertyPath: m_Name
-      value: '[BLOCK-PILLAR] (33)'
-      objectReference: {fileID: 0}
     - target: {fileID: 232962021617214200, guid: 063f0f1bc44ce6f45bf149867bc3165e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -283,6 +279,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
+        type: 3}
+      propertyPath: m_Name
+      value: '[BLOCK-PILLAR] (33)'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063f0f1bc44ce6f45bf149867bc3165e, type: 3}
 --- !u!4 &37760955 stripped
@@ -298,11 +299,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
-        type: 3}
-      propertyPath: m_Name
-      value: '[BLOCK-PILLAR] (43)'
-      objectReference: {fileID: 0}
     - target: {fileID: 232962021617214200, guid: 063f0f1bc44ce6f45bf149867bc3165e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -358,6 +354,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
+        type: 3}
+      propertyPath: m_Name
+      value: '[BLOCK-PILLAR] (43)'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063f0f1bc44ce6f45bf149867bc3165e, type: 3}
 --- !u!4 &43027618 stripped
@@ -373,11 +374,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
-        type: 3}
-      propertyPath: m_Name
-      value: '[BLOCK-PILLAR] (36)'
-      objectReference: {fileID: 0}
     - target: {fileID: 232962021617214200, guid: 063f0f1bc44ce6f45bf149867bc3165e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -432,6 +428,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
+        type: 3}
+      propertyPath: m_Name
+      value: '[BLOCK-PILLAR] (36)'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063f0f1bc44ce6f45bf149867bc3165e, type: 3}
@@ -543,11 +544,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
-        type: 3}
-      propertyPath: m_Name
-      value: '[BLOCK-PILLAR] (44)'
-      objectReference: {fileID: 0}
     - target: {fileID: 232962021617214200, guid: 063f0f1bc44ce6f45bf149867bc3165e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -603,6 +599,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
+        type: 3}
+      propertyPath: m_Name
+      value: '[BLOCK-PILLAR] (44)'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063f0f1bc44ce6f45bf149867bc3165e, type: 3}
 --- !u!4 &101216950 stripped
@@ -652,11 +653,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
-        type: 3}
-      propertyPath: m_Name
-      value: '[BLOCK-PILLAR] (56)'
-      objectReference: {fileID: 0}
     - target: {fileID: 232962021617214200, guid: 063f0f1bc44ce6f45bf149867bc3165e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -721,6 +717,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
+        type: 3}
+      propertyPath: m_Name
+      value: '[BLOCK-PILLAR] (56)'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063f0f1bc44ce6f45bf149867bc3165e, type: 3}
@@ -1091,11 +1092,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
-        type: 3}
-      propertyPath: m_Name
-      value: '[BLOCK-PILLAR] (32)'
-      objectReference: {fileID: 0}
     - target: {fileID: 232962021617214200, guid: 063f0f1bc44ce6f45bf149867bc3165e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1150,6 +1146,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
+        type: 3}
+      propertyPath: m_Name
+      value: '[BLOCK-PILLAR] (32)'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063f0f1bc44ce6f45bf149867bc3165e, type: 3}
@@ -1282,7 +1283,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 18.047, y: 0, z: 0}
 --- !u!114 &282840816
 MonoBehaviour:
@@ -1300,7 +1301,7 @@ MonoBehaviour:
   volumeLayer:
     serializedVersion: 2
     m_Bits: 256
-  stopNaNPropagation: 1
+  stopNaNPropagation: 0
   finalBlitToCameraTarget: 1
   antialiasingMode: 1
   temporalAntialiasing:
@@ -1311,7 +1312,7 @@ MonoBehaviour:
   subpixelMorphologicalAntialiasing:
     quality: 2
   fastApproximateAntialiasing:
-    fastMode: 0
+    fastMode: 1
     keepAlpha: 0
   fog:
     enabled: 1
@@ -1351,11 +1352,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
-        type: 3}
-      propertyPath: m_Name
-      value: '[BLOCK-PILLAR] (63)'
-      objectReference: {fileID: 0}
     - target: {fileID: 232962021617214200, guid: 063f0f1bc44ce6f45bf149867bc3165e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1411,6 +1407,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
+        type: 3}
+      propertyPath: m_Name
+      value: '[BLOCK-PILLAR] (63)'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063f0f1bc44ce6f45bf149867bc3165e, type: 3}
 --- !u!4 &330705411 stripped
@@ -1426,11 +1427,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
-        type: 3}
-      propertyPath: m_Name
-      value: '[BLOCK-PILLAR] (45)'
-      objectReference: {fileID: 0}
     - target: {fileID: 232962021617214200, guid: 063f0f1bc44ce6f45bf149867bc3165e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1486,6 +1482,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
+        type: 3}
+      propertyPath: m_Name
+      value: '[BLOCK-PILLAR] (45)'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063f0f1bc44ce6f45bf149867bc3165e, type: 3}
 --- !u!4 &342600168 stripped
@@ -1501,11 +1502,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
-        type: 3}
-      propertyPath: m_Name
-      value: '[BLOCK-PILLAR] (11)'
-      objectReference: {fileID: 0}
     - target: {fileID: 232962021617214200, guid: 063f0f1bc44ce6f45bf149867bc3165e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1560,6 +1556,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
+        type: 3}
+      propertyPath: m_Name
+      value: '[BLOCK-PILLAR] (11)'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063f0f1bc44ce6f45bf149867bc3165e, type: 3}
@@ -1671,11 +1672,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
-        type: 3}
-      propertyPath: m_Name
-      value: '[BLOCK-PILLAR] (41)'
-      objectReference: {fileID: 0}
     - target: {fileID: 232962021617214200, guid: 063f0f1bc44ce6f45bf149867bc3165e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1730,6 +1726,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
+        type: 3}
+      propertyPath: m_Name
+      value: '[BLOCK-PILLAR] (41)'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063f0f1bc44ce6f45bf149867bc3165e, type: 3}
@@ -1853,11 +1854,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
-        type: 3}
-      propertyPath: m_Name
-      value: '[BLOCK-PILLAR] (25)'
-      objectReference: {fileID: 0}
     - target: {fileID: 232962021617214200, guid: 063f0f1bc44ce6f45bf149867bc3165e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1913,6 +1909,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
+        type: 3}
+      propertyPath: m_Name
+      value: '[BLOCK-PILLAR] (25)'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063f0f1bc44ce6f45bf149867bc3165e, type: 3}
 --- !u!4 &505374258 stripped
@@ -1946,11 +1947,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
-        type: 3}
-      propertyPath: m_Name
-      value: '[BLOCK-PILLAR] (54)'
-      objectReference: {fileID: 0}
     - target: {fileID: 232962021617214200, guid: 063f0f1bc44ce6f45bf149867bc3165e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2006,6 +2002,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
+        type: 3}
+      propertyPath: m_Name
+      value: '[BLOCK-PILLAR] (54)'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063f0f1bc44ce6f45bf149867bc3165e, type: 3}
 --- !u!4 &525444922 stripped
@@ -2021,11 +2022,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
-        type: 3}
-      propertyPath: m_Name
-      value: '[BLOCK-PILLAR] (55)'
-      objectReference: {fileID: 0}
     - target: {fileID: 232962021617214200, guid: 063f0f1bc44ce6f45bf149867bc3165e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2091,6 +2087,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.75
       objectReference: {fileID: 0}
+    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
+        type: 3}
+      propertyPath: m_Name
+      value: '[BLOCK-PILLAR] (55)'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063f0f1bc44ce6f45bf149867bc3165e, type: 3}
 --- !u!4 &557778251 stripped
@@ -2106,11 +2107,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
-        type: 3}
-      propertyPath: m_Name
-      value: '[BLOCK-PILLAR] (17)'
-      objectReference: {fileID: 0}
     - target: {fileID: 232962021617214200, guid: 063f0f1bc44ce6f45bf149867bc3165e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2166,6 +2162,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
+        type: 3}
+      propertyPath: m_Name
+      value: '[BLOCK-PILLAR] (17)'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063f0f1bc44ce6f45bf149867bc3165e, type: 3}
 --- !u!4 &611013535 stripped
@@ -2181,11 +2182,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
-        type: 3}
-      propertyPath: m_Name
-      value: '[BLOCK-PILLAR] (50)'
-      objectReference: {fileID: 0}
     - target: {fileID: 232962021617214200, guid: 063f0f1bc44ce6f45bf149867bc3165e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2241,6 +2237,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
+        type: 3}
+      propertyPath: m_Name
+      value: '[BLOCK-PILLAR] (50)'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063f0f1bc44ce6f45bf149867bc3165e, type: 3}
 --- !u!4 &663736756 stripped
@@ -2256,11 +2257,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
-        type: 3}
-      propertyPath: m_Name
-      value: '[BLOCK-PILLAR] (23)'
-      objectReference: {fileID: 0}
     - target: {fileID: 232962021617214200, guid: 063f0f1bc44ce6f45bf149867bc3165e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2316,6 +2312,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
+        type: 3}
+      propertyPath: m_Name
+      value: '[BLOCK-PILLAR] (23)'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063f0f1bc44ce6f45bf149867bc3165e, type: 3}
 --- !u!4 &793440445 stripped
@@ -2331,11 +2332,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
-        type: 3}
-      propertyPath: m_Name
-      value: '[BLOCK-PILLAR] (37)'
-      objectReference: {fileID: 0}
     - target: {fileID: 232962021617214200, guid: 063f0f1bc44ce6f45bf149867bc3165e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2390,6 +2386,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
+        type: 3}
+      propertyPath: m_Name
+      value: '[BLOCK-PILLAR] (37)'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063f0f1bc44ce6f45bf149867bc3165e, type: 3}
@@ -2459,11 +2460,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 819972820}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2249.3445, y: -1826.6006, z: 0}
-  m_LocalScale: {x: 2.92375, y: 2.92375, z: 2.92375}
+  m_LocalPosition: {x: -1602.5034, y: -1135.9158, z: 0}
+  m_LocalScale: {x: 1.3381008, y: 1.3381008, z: 1.3381008}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_Father: {fileID: 1214960338}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &836384995
 PrefabInstance:
@@ -2472,11 +2473,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
-        type: 3}
-      propertyPath: m_Name
-      value: '[BLOCK-PILLAR] (51)'
-      objectReference: {fileID: 0}
     - target: {fileID: 232962021617214200, guid: 063f0f1bc44ce6f45bf149867bc3165e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2532,6 +2528,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
+        type: 3}
+      propertyPath: m_Name
+      value: '[BLOCK-PILLAR] (51)'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063f0f1bc44ce6f45bf149867bc3165e, type: 3}
 --- !u!4 &836384996 stripped
@@ -2547,11 +2548,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
-        type: 3}
-      propertyPath: m_Name
-      value: '[BLOCK-PILLAR] (49)'
-      objectReference: {fileID: 0}
     - target: {fileID: 232962021617214200, guid: 063f0f1bc44ce6f45bf149867bc3165e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2607,6 +2603,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
+        type: 3}
+      propertyPath: m_Name
+      value: '[BLOCK-PILLAR] (49)'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063f0f1bc44ce6f45bf149867bc3165e, type: 3}
 --- !u!4 &847086352 stripped
@@ -2622,11 +2623,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
-        type: 3}
-      propertyPath: m_Name
-      value: '[BLOCK-PILLAR] (60)'
-      objectReference: {fileID: 0}
     - target: {fileID: 232962021617214200, guid: 063f0f1bc44ce6f45bf149867bc3165e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2681,6 +2677,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
+        type: 3}
+      propertyPath: m_Name
+      value: '[BLOCK-PILLAR] (60)'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063f0f1bc44ce6f45bf149867bc3165e, type: 3}
@@ -2792,11 +2793,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
-        type: 3}
-      propertyPath: m_Name
-      value: '[BLOCK-PILLAR] (62)'
-      objectReference: {fileID: 0}
     - target: {fileID: 232962021617214200, guid: 063f0f1bc44ce6f45bf149867bc3165e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2852,6 +2848,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
+        type: 3}
+      propertyPath: m_Name
+      value: '[BLOCK-PILLAR] (62)'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063f0f1bc44ce6f45bf149867bc3165e, type: 3}
 --- !u!4 &938284007 stripped
@@ -2867,11 +2868,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
-        type: 3}
-      propertyPath: m_Name
-      value: '[BLOCK-PILLAR] (38)'
-      objectReference: {fileID: 0}
     - target: {fileID: 232962021617214200, guid: 063f0f1bc44ce6f45bf149867bc3165e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2927,6 +2923,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
+        type: 3}
+      propertyPath: m_Name
+      value: '[BLOCK-PILLAR] (38)'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063f0f1bc44ce6f45bf149867bc3165e, type: 3}
 --- !u!4 &1032235888 stripped
@@ -2942,11 +2943,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
-        type: 3}
-      propertyPath: m_Name
-      value: '[BLOCK-PILLAR] (61)'
-      objectReference: {fileID: 0}
     - target: {fileID: 232962021617214200, guid: 063f0f1bc44ce6f45bf149867bc3165e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3002,6 +2998,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
+        type: 3}
+      propertyPath: m_Name
+      value: '[BLOCK-PILLAR] (61)'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063f0f1bc44ce6f45bf149867bc3165e, type: 3}
 --- !u!4 &1058219090 stripped
@@ -3017,11 +3018,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
-        type: 3}
-      propertyPath: m_Name
-      value: '[BLOCK-PILLAR] (47)'
-      objectReference: {fileID: 0}
     - target: {fileID: 232962021617214200, guid: 063f0f1bc44ce6f45bf149867bc3165e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3077,6 +3073,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
+        type: 3}
+      propertyPath: m_Name
+      value: '[BLOCK-PILLAR] (47)'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063f0f1bc44ce6f45bf149867bc3165e, type: 3}
 --- !u!4 &1069394802 stripped
@@ -3092,11 +3093,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
-        type: 3}
-      propertyPath: m_Name
-      value: '[BLOCK-PILLAR] (40)'
-      objectReference: {fileID: 0}
     - target: {fileID: 232962021617214200, guid: 063f0f1bc44ce6f45bf149867bc3165e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3152,6 +3148,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
+        type: 3}
+      propertyPath: m_Name
+      value: '[BLOCK-PILLAR] (40)'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063f0f1bc44ce6f45bf149867bc3165e, type: 3}
 --- !u!4 &1071078483 stripped
@@ -3167,11 +3168,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
-        type: 3}
-      propertyPath: m_Name
-      value: '[BLOCK-PILLAR] (20)'
-      objectReference: {fileID: 0}
     - target: {fileID: 232962021617214200, guid: 063f0f1bc44ce6f45bf149867bc3165e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3227,6 +3223,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
+        type: 3}
+      propertyPath: m_Name
+      value: '[BLOCK-PILLAR] (20)'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063f0f1bc44ce6f45bf149867bc3165e, type: 3}
 --- !u!4 &1113547529 stripped
@@ -3242,11 +3243,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
-        type: 3}
-      propertyPath: m_Name
-      value: '[BLOCK-PILLAR] (34)'
-      objectReference: {fileID: 0}
     - target: {fileID: 232962021617214200, guid: 063f0f1bc44ce6f45bf149867bc3165e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3302,6 +3298,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
+        type: 3}
+      propertyPath: m_Name
+      value: '[BLOCK-PILLAR] (34)'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063f0f1bc44ce6f45bf149867bc3165e, type: 3}
 --- !u!4 &1118676094 stripped
@@ -3317,11 +3318,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
-        type: 3}
-      propertyPath: m_Name
-      value: '[BLOCK-PILLAR] (4)'
-      objectReference: {fileID: 0}
     - target: {fileID: 232962021617214200, guid: 063f0f1bc44ce6f45bf149867bc3165e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3377,6 +3373,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
+        type: 3}
+      propertyPath: m_Name
+      value: '[BLOCK-PILLAR] (4)'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063f0f1bc44ce6f45bf149867bc3165e, type: 3}
 --- !u!4 &1186127213 stripped
@@ -3420,7 +3421,7 @@ MonoBehaviour:
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 1847
 --- !u!114 &1214960336
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3476,6 +3477,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1222498473}
+  - {fileID: 819972823}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3562,11 +3564,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
-        type: 3}
-      propertyPath: m_Name
-      value: '[BLOCK-PILLAR] (52)'
-      objectReference: {fileID: 0}
     - target: {fileID: 232962021617214200, guid: 063f0f1bc44ce6f45bf149867bc3165e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3622,6 +3619,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
+        type: 3}
+      propertyPath: m_Name
+      value: '[BLOCK-PILLAR] (52)'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063f0f1bc44ce6f45bf149867bc3165e, type: 3}
 --- !u!4 &1248192403 stripped
@@ -3637,11 +3639,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
-        type: 3}
-      propertyPath: m_Name
-      value: '[BLOCK-PILLAR] (31)'
-      objectReference: {fileID: 0}
     - target: {fileID: 232962021617214200, guid: 063f0f1bc44ce6f45bf149867bc3165e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3697,6 +3694,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
+        type: 3}
+      propertyPath: m_Name
+      value: '[BLOCK-PILLAR] (31)'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063f0f1bc44ce6f45bf149867bc3165e, type: 3}
 --- !u!4 &1259721632 stripped
@@ -3712,6 +3714,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1222498473}
     m_Modifications:
+    - target: {fileID: 308805536, guid: d22045c4edc55874dae284e6603fa0a6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2018017175, guid: d22045c4edc55874dae284e6603fa0a6, type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2018017175, guid: d22045c4edc55874dae284e6603fa0a6, type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2018017175, guid: d22045c4edc55874dae284e6603fa0a6, type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2018017175, guid: d22045c4edc55874dae284e6603fa0a6, type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 433337138664400742, guid: d22045c4edc55874dae284e6603fa0a6,
+        type: 3}
+      propertyPath: m_Name
+      value: '[Weapon-Slot] (1)'
+      objectReference: {fileID: 0}
     - target: {fileID: 433337138664400745, guid: d22045c4edc55874dae284e6603fa0a6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3817,31 +3844,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 433337138664400742, guid: d22045c4edc55874dae284e6603fa0a6,
-        type: 3}
-      propertyPath: m_Name
-      value: '[Weapon-Slot] (1)'
-      objectReference: {fileID: 0}
-    - target: {fileID: 308805536, guid: d22045c4edc55874dae284e6603fa0a6, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2018017175, guid: d22045c4edc55874dae284e6603fa0a6, type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2018017175, guid: d22045c4edc55874dae284e6603fa0a6, type: 3}
-      propertyPath: m_textInfo.wordCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2018017175, guid: d22045c4edc55874dae284e6603fa0a6, type: 3}
-      propertyPath: m_textInfo.lineCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2018017175, guid: d22045c4edc55874dae284e6603fa0a6, type: 3}
-      propertyPath: m_textInfo.pageCount
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d22045c4edc55874dae284e6603fa0a6, type: 3}
 --- !u!224 &1306132796 stripped
@@ -3919,9 +3921,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1357645791}
-  - component: {fileID: 1357645792}
   - component: {fileID: 1357645793}
   - component: {fileID: 1357645794}
+  - component: {fileID: 1357645792}
   m_Layer: 0
   m_Name: '[GM]'
   m_TagString: Untagged
@@ -3950,11 +3952,36 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1357645790}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e21542abd4d004f41b3ca17e4844e8b5, type: 3}
+  m_Script: {fileID: 11500000, guid: 5ddd1b15501ec9e4eb0da07401a5207e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: unitsSelected
+      Entry: 7
+      Data: 0|System.Collections.Generic.HashSet`1[[Unit, Assembly-CSharp]], System.Core
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  toolMode: 0
+  cam: {fileID: 282840813}
+  cursorPointer: {fileID: 2800000, guid: ed12c52600929074ba1773143aa39f3c, type: 3}
+  cursorPlace: {fileID: 0}
 --- !u!114 &1357645793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4082,11 +4109,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
-        type: 3}
-      propertyPath: m_Name
-      value: '[BLOCK-PILLAR] (30)'
-      objectReference: {fileID: 0}
     - target: {fileID: 232962021617214200, guid: 063f0f1bc44ce6f45bf149867bc3165e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4142,6 +4164,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
+        type: 3}
+      propertyPath: m_Name
+      value: '[BLOCK-PILLAR] (30)'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063f0f1bc44ce6f45bf149867bc3165e, type: 3}
 --- !u!4 &1476019533 stripped
@@ -4157,11 +4184,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
-        type: 3}
-      propertyPath: m_Name
-      value: '[BLOCK-PILLAR] (29)'
-      objectReference: {fileID: 0}
     - target: {fileID: 232962021617214200, guid: 063f0f1bc44ce6f45bf149867bc3165e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4217,6 +4239,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
+        type: 3}
+      propertyPath: m_Name
+      value: '[BLOCK-PILLAR] (29)'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063f0f1bc44ce6f45bf149867bc3165e, type: 3}
 --- !u!4 &1488056694 stripped
@@ -4232,11 +4259,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
-        type: 3}
-      propertyPath: m_Name
-      value: '[BLOCK-PILLAR] (19)'
-      objectReference: {fileID: 0}
     - target: {fileID: 232962021617214200, guid: 063f0f1bc44ce6f45bf149867bc3165e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4291,6 +4313,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
+        type: 3}
+      propertyPath: m_Name
+      value: '[BLOCK-PILLAR] (19)'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063f0f1bc44ce6f45bf149867bc3165e, type: 3}
@@ -4474,11 +4501,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
-        type: 3}
-      propertyPath: m_Name
-      value: '[BLOCK-PILLAR] (28)'
-      objectReference: {fileID: 0}
     - target: {fileID: 232962021617214200, guid: 063f0f1bc44ce6f45bf149867bc3165e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4534,6 +4556,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
+        type: 3}
+      propertyPath: m_Name
+      value: '[BLOCK-PILLAR] (28)'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063f0f1bc44ce6f45bf149867bc3165e, type: 3}
 --- !u!4 &1537034373 stripped
@@ -4549,11 +4576,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
-        type: 3}
-      propertyPath: m_Name
-      value: '[BLOCK-PILLAR] (39)'
-      objectReference: {fileID: 0}
     - target: {fileID: 232962021617214200, guid: 063f0f1bc44ce6f45bf149867bc3165e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4609,6 +4631,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
+        type: 3}
+      propertyPath: m_Name
+      value: '[BLOCK-PILLAR] (39)'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063f0f1bc44ce6f45bf149867bc3165e, type: 3}
 --- !u!4 &1565354542 stripped
@@ -4624,11 +4651,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
-        type: 3}
-      propertyPath: m_Name
-      value: '[BLOCK-PILLAR] (59)'
-      objectReference: {fileID: 0}
     - target: {fileID: 232962021617214200, guid: 063f0f1bc44ce6f45bf149867bc3165e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4684,6 +4706,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
+        type: 3}
+      propertyPath: m_Name
+      value: '[BLOCK-PILLAR] (59)'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063f0f1bc44ce6f45bf149867bc3165e, type: 3}
 --- !u!4 &1591121779 stripped
@@ -4699,11 +4726,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
-        type: 3}
-      propertyPath: m_Name
-      value: '[BLOCK-PILLAR] (48)'
-      objectReference: {fileID: 0}
     - target: {fileID: 232962021617214200, guid: 063f0f1bc44ce6f45bf149867bc3165e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4759,6 +4781,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
+        type: 3}
+      propertyPath: m_Name
+      value: '[BLOCK-PILLAR] (48)'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063f0f1bc44ce6f45bf149867bc3165e, type: 3}
 --- !u!4 &1630299746 stripped
@@ -4774,11 +4801,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
-        type: 3}
-      propertyPath: m_Name
-      value: '[BLOCK-PILLAR] (57)'
-      objectReference: {fileID: 0}
     - target: {fileID: 232962021617214200, guid: 063f0f1bc44ce6f45bf149867bc3165e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4834,6 +4856,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
+        type: 3}
+      propertyPath: m_Name
+      value: '[BLOCK-PILLAR] (57)'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063f0f1bc44ce6f45bf149867bc3165e, type: 3}
 --- !u!4 &1651447239 stripped
@@ -4849,11 +4876,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
-        type: 3}
-      propertyPath: m_Name
-      value: '[BLOCK-PILLAR] (35)'
-      objectReference: {fileID: 0}
     - target: {fileID: 232962021617214200, guid: 063f0f1bc44ce6f45bf149867bc3165e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4909,6 +4931,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
+        type: 3}
+      propertyPath: m_Name
+      value: '[BLOCK-PILLAR] (35)'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063f0f1bc44ce6f45bf149867bc3165e, type: 3}
 --- !u!4 &1654759802 stripped
@@ -4924,11 +4951,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 8351084378507921603, guid: 762dd2a0646beac4a81a856adf174227,
-        type: 3}
-      propertyPath: m_Name
-      value: '[WALL] (1)'
-      objectReference: {fileID: 0}
     - target: {fileID: 8351084378507921602, guid: 762dd2a0646beac4a81a856adf174227,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4984,6 +5006,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8351084378507921603, guid: 762dd2a0646beac4a81a856adf174227,
+        type: 3}
+      propertyPath: m_Name
+      value: '[WALL] (1)'
+      objectReference: {fileID: 0}
     - target: {fileID: 8351084378507921607, guid: 762dd2a0646beac4a81a856adf174227,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -5004,11 +5031,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
-        type: 3}
-      propertyPath: m_Name
-      value: '[BLOCK-PILLAR] (53)'
-      objectReference: {fileID: 0}
     - target: {fileID: 232962021617214200, guid: 063f0f1bc44ce6f45bf149867bc3165e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5064,6 +5086,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
+        type: 3}
+      propertyPath: m_Name
+      value: '[BLOCK-PILLAR] (53)'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063f0f1bc44ce6f45bf149867bc3165e, type: 3}
 --- !u!4 &1761920088 stripped
@@ -5079,11 +5106,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
-        type: 3}
-      propertyPath: m_Name
-      value: '[BLOCK-PILLAR] (42)'
-      objectReference: {fileID: 0}
     - target: {fileID: 232962021617214200, guid: 063f0f1bc44ce6f45bf149867bc3165e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5139,6 +5161,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
+        type: 3}
+      propertyPath: m_Name
+      value: '[BLOCK-PILLAR] (42)'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063f0f1bc44ce6f45bf149867bc3165e, type: 3}
 --- !u!4 &1776107084 stripped
@@ -5154,11 +5181,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
-        type: 3}
-      propertyPath: m_Name
-      value: '[BLOCK-PILLAR] (58)'
-      objectReference: {fileID: 0}
     - target: {fileID: 232962021617214200, guid: 063f0f1bc44ce6f45bf149867bc3165e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5214,6 +5236,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
+        type: 3}
+      propertyPath: m_Name
+      value: '[BLOCK-PILLAR] (58)'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063f0f1bc44ce6f45bf149867bc3165e, type: 3}
 --- !u!4 &1838801384 stripped
@@ -5229,11 +5256,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
-        type: 3}
-      propertyPath: m_Name
-      value: '[BLOCK-PILLAR] (27)'
-      objectReference: {fileID: 0}
     - target: {fileID: 232962021617214200, guid: 063f0f1bc44ce6f45bf149867bc3165e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5289,6 +5311,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
+        type: 3}
+      propertyPath: m_Name
+      value: '[BLOCK-PILLAR] (27)'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063f0f1bc44ce6f45bf149867bc3165e, type: 3}
 --- !u!4 &1866048177 stripped
@@ -5304,11 +5331,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
-        type: 3}
-      propertyPath: m_Name
-      value: '[BLOCK-PILLAR] (64)'
-      objectReference: {fileID: 0}
     - target: {fileID: 232962021617214200, guid: 063f0f1bc44ce6f45bf149867bc3165e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5364,6 +5386,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
+        type: 3}
+      propertyPath: m_Name
+      value: '[BLOCK-PILLAR] (64)'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063f0f1bc44ce6f45bf149867bc3165e, type: 3}
 --- !u!4 &1989826959 stripped
@@ -5379,11 +5406,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
-        type: 3}
-      propertyPath: m_Name
-      value: '[BLOCK-PILLAR] (21)'
-      objectReference: {fileID: 0}
     - target: {fileID: 232962021617214200, guid: 063f0f1bc44ce6f45bf149867bc3165e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5439,6 +5461,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
+        type: 3}
+      propertyPath: m_Name
+      value: '[BLOCK-PILLAR] (21)'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063f0f1bc44ce6f45bf149867bc3165e, type: 3}
 --- !u!4 &2014595462 stripped
@@ -5454,11 +5481,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
-        type: 3}
-      propertyPath: m_Name
-      value: '[BLOCK-PILLAR] (46)'
-      objectReference: {fileID: 0}
     - target: {fileID: 232962021617214200, guid: 063f0f1bc44ce6f45bf149867bc3165e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5514,6 +5536,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
+        type: 3}
+      propertyPath: m_Name
+      value: '[BLOCK-PILLAR] (46)'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063f0f1bc44ce6f45bf149867bc3165e, type: 3}
 --- !u!4 &2055371632 stripped
@@ -5529,11 +5556,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
-        type: 3}
-      propertyPath: m_Name
-      value: '[BLOCK-PILLAR] (18)'
-      objectReference: {fileID: 0}
     - target: {fileID: 232962021617214200, guid: 063f0f1bc44ce6f45bf149867bc3165e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5588,6 +5610,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 232962021617214201, guid: 063f0f1bc44ce6f45bf149867bc3165e,
+        type: 3}
+      propertyPath: m_Name
+      value: '[BLOCK-PILLAR] (18)'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 063f0f1bc44ce6f45bf149867bc3165e, type: 3}
@@ -5710,6 +5737,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1222498473}
     m_Modifications:
+    - target: {fileID: 433337138664400742, guid: d22045c4edc55874dae284e6603fa0a6,
+        type: 3}
+      propertyPath: m_Name
+      value: '[Weapon-Slot]'
+      objectReference: {fileID: 0}
     - target: {fileID: 433337138664400745, guid: d22045c4edc55874dae284e6603fa0a6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5815,11 +5847,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 433337138664400742, guid: d22045c4edc55874dae284e6603fa0a6,
-        type: 3}
-      propertyPath: m_Name
-      value: '[Weapon-Slot]'
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d22045c4edc55874dae284e6603fa0a6, type: 3}
 --- !u!1001 &3338406829290643475
@@ -5904,10 +5931,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 212622814}
     m_Modifications:
-    - target: {fileID: 8351084378507921603, guid: 762dd2a0646beac4a81a856adf174227,
+    - target: {fileID: 8351084378507921601, guid: 762dd2a0646beac4a81a856adf174227,
         type: 3}
-      propertyPath: m_Name
-      value: '[WALL]'
+      propertyPath: m_Drag
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 8351084378507921602, guid: 762dd2a0646beac4a81a856adf174227,
         type: 3}
@@ -5964,16 +5991,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8351084378507921603, guid: 762dd2a0646beac4a81a856adf174227,
+        type: 3}
+      propertyPath: m_Name
+      value: '[WALL]'
+      objectReference: {fileID: 0}
     - target: {fileID: 8351084378507921607, guid: 762dd2a0646beac4a81a856adf174227,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 0982b72275552854fa1ae85d21a58e13, type: 2}
-    - target: {fileID: 8351084378507921601, guid: 762dd2a0646beac4a81a856adf174227,
-        type: 3}
-      propertyPath: m_Drag
-      value: 0.01
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 762dd2a0646beac4a81a856adf174227, type: 3}
 --- !u!1001 &8413685648133372793

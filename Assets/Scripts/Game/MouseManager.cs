@@ -11,45 +11,42 @@ public class MouseManager : SerializedMonoBehaviour {
     [SerializeField] private Camera cam;
     [SerializeField] private Texture2D cursorPointer;
     [SerializeField] private Texture2D cursorPlace;
-    [SerializeField] private HashSet<Unit> unitsSelected = new HashSet<Unit> ();
+    [SerializeField] private Texture2D cursorAttack;
+
+    private UnitManager unitManager;
 
     private void Start () {
+        unitManager = FindObjectOfType<UnitManager> ();
         ChangeTool (ToolMode.POINTER);
     }
 
     private void Update () {
+
+        if (Input.GetKeyDown (KeyCode.A)) {
+            ChangeTool (ToolMode.ATTACK);
+        }
+
         ray = cam.ScreenPointToRay (Input.mousePosition);
         if (Physics.Raycast (ray, out hit, 650)) {
-
-            if (Input.GetMouseButtonDown (0) && toolMode == ToolMode.POINTER) {
-                OnSelect ();
+            if (Input.GetMouseButtonDown (0)) {
+                unitManager.SelectUnit (hit.collider);
+            } else if (Input.GetMouseButton (1)) {
+                unitManager.OnMoveUnits (hit.point, toolMode);
             }
-        }
-    }
-
-    private void OnSelect () {
-        var unit = hit.collider.GetComponent<Unit> ();
-        if (unit == null) {
-            foreach (Unit unt in unitsSelected) {
-                unt.OnDeselect ();
-            }
-            unitsSelected.Clear ();
-        } else if (unitsSelected.Contains (unit)) {
-            unitsSelected.Remove (unit);
-        } else {
-            unitsSelected.Add (unit);
         }
     }
 
     public void ChangeTool (ToolMode tool) {
         toolMode = tool;
-
         switch (toolMode) {
             case ToolMode.POINTER:
-                Cursor.SetCursor (cursorPointer, new Vector2 (0, 0), CursorMode.Auto);
+                // Cursor.SetCursor (cursorPointer, new Vector2 (0, 0), CursorMode.Auto);
                 break;
             case ToolMode.PLACE:
-                Cursor.SetCursor (cursorPlace, Vector2.zero, CursorMode.Auto);
+                // Cursor.SetCursor (cursorPlace, Vector2.zero, CursorMode.Auto);
+                break;
+            case ToolMode.ATTACK:
+                // Cursor.SetCursor (cursorAttack, Vector2.zero, CursorMode.Auto);
                 break;
         }
     }
@@ -57,5 +54,6 @@ public class MouseManager : SerializedMonoBehaviour {
 
 public enum ToolMode {
     POINTER,
-    PLACE
+    PLACE,
+    ATTACK
 }
